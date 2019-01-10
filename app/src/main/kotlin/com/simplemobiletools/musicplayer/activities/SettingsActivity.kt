@@ -26,6 +26,7 @@ class SettingsActivity : SimpleActivity() {
     override fun onResume() {
         super.onResume()
 
+        
         setupPurchaseThankYou()
         setupCustomizeColors()
         setupCustomizeWidgetColors()
